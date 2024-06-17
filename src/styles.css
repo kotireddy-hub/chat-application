@@ -12,14 +12,6 @@ body {
     background-color: #f0f0f0;
   }
   
-  /* ChatApp Styles */
-  .chat-app {
-    display: flex;
-    width: 80%;
-    height: 80%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
-  }
   
   /* ContactList Styles */
   .contact-list {
@@ -40,112 +32,7 @@ body {
     background-color: #f9f9f9;
   }
   
-  .contact-image {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .contact-details {
-    flex: 1;
-  }
-  
-  .contact-name {
-    font-weight: bold;
-  }
-  
-  .contact-last-message {
-    color: #888;
-  }
-  
-  .contact-unread {
-    background-color: #007bff;
-    color: #ffffff;
-    border-radius: 12px;
-    padding: 2px 6px;
-    font-size: 12px;
-  }
-  
-  /* ChatWindow Styles */
-  .chat-window {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .chat-header {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #e0e0e0;
-  }
-  
-  .chat-header-image {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .chat-header-name {
-    font-weight: bold;
-    flex: 1;
-  }
-  
-  .chat-header-icons {
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-  }
-  
-  .chat-header-icon {
-    margin-left: 10px;
-    cursor: pointer;
-    color: #007bff;
-  }
-  
-  .chat-messages {
-    flex: 1;
-    padding: 10px;
-    overflow-y: auto;
-    background-color: #f9f9f9;
-  }
-  
-  .chat-message {
-    margin-bottom: 10px;
-  }
-  
-  .chat-message-sent {
-    align-self: flex-end;
-    background-color: #dcf8c6;
-    border-radius: 10px;
-    padding: 5px 10px;
-  }
-  
-  .chat-message-received {
-    align-self: flex-start;
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 5px 10px;
-    border: 1px solid #e0e0e0;
-  }
-  
-  .chat-message-time {
-    font-size: 10px;
-    color: #999;
-    margin-bottom: 2px;
-  }
-  
-  .chat-message-text {
-    font-size: 14px;
-  }
-  
-  .chat-input {
-    display: flex;
-    padding: 10px;
-    border-top: 1px solid #e0e0e0;
-  }
+  /* ChatWindow Styles */  
   
   .chat-input-field {
     width: 100%;
@@ -154,42 +41,7 @@ body {
     border-radius: 20px;
     outline: none;
   }
-  
-  .chat-window {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    border-left: 1px solid #e0e0e0;
-  }
-  
-  .chat-header {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #e0e0e0;
-  }
-  
-  .contact-image {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .contact-name {
-    font-weight: bold;
-  }
-  
-  .chat-messages {
-    flex: 1;
-    padding: 10px;
-    overflow-y: auto;
-  }
-  
-  .chat-message {
-    margin-bottom: 10px;
-  }
-  
+ 
   .my-message .message-text {
     background-color: #d2f8d2;
     border-radius: 15px;
@@ -208,13 +60,6 @@ body {
     font-size: 0.8em;
     color: #999;
     margin-top: 5px;
-  }
-  
-  .chat-input {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border-top: 1px solid #e0e0e0;
   }
   
   .input-paper {
@@ -229,44 +74,6 @@ body {
     flex: 1;
     margin-left: 10px;
   }
-  .chat-app {
-    display: flex;
-    height: 100vh;
-  }
-  
-  .chat-window {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .chat-header {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #e0e0e0;
-  }
-  
-  .contact-image {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .contact-name {
-    font-weight: bold;
-  }
-  
-  .chat-messages {
-    flex: 1;
-    padding: 10px;
-    overflow-y: auto;
-  }
-  
-  .chat-message {
-    margin-bottom: 10px;
-  }
   
   .my-message .message-text {
     background-color: #d2f8d2;
@@ -286,13 +93,6 @@ body {
     font-size: 0.8em;
     color: #999;
     margin-top: 5px;
-  }
-  
-  .chat-input {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border-top: 1px solid #e0e0e0;
   }
   
   .input-paper {
@@ -334,20 +134,6 @@ body {
   flex: 1;
 }
 
-.chat-window {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.chat-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  border-bottom: 1px solid #e0e0e0;
-}
-
 .contact-info {
   display: flex;
   align-items: center;
@@ -364,19 +150,11 @@ body {
   display: flex;
   align-items: center;
 }
-
-.chat-messages {
-  flex: 1;
-  padding: 10px;
-  overflow-y: auto;
-  background-color: #f5f5f5;
-}
-
 .chat-message {
-  max-width: 60%;
+  max-width: 100%;
   margin-bottom: 10px;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .chat-message.sent {
@@ -394,14 +172,6 @@ body {
   font-size: 0.8em;
   color: #888;
   margin-top: 5px;
-}
-
-.chat-input {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  border-top: 1px solid #e0e0e0;
-  background-color: #fff;
 }
 
 .chat-input .MuiTextField-root {
@@ -425,19 +195,6 @@ body {
   border-right: 1px solid #ddd;
   overflow-y: auto;
 }
-
-.contact-item {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  cursor: pointer;
-  border-bottom: 1px solid #eee;
-}
-
-.contact-item:hover {
-  background-color: #f5f5f5;
-}
-
 .contact-img {
   width: 50px;
   height: 50px;
@@ -447,15 +204,6 @@ body {
 
 .contact-info {
   flex-grow: 1;
-}
-
-.contact-name {
-  font-weight: bold;
-}
-
-.contact-last-message {
-  color: #999;
-  font-size: 14px;
 }
 
 .unread-count {
@@ -491,11 +239,6 @@ body {
   flex-grow: 1;
 }
 
-.chat-header-name {
-  font-weight: bold;
-  font-size: 18px;
-}
-
 .chat-header-status {
   color: #999;
   font-size: 14px;
@@ -520,6 +263,15 @@ body {
 .chat-message.received .chat-message-text {
   background-color: #fff;
   align-self: flex-start;
+}
+.chat-message.sent {
+  align-self: flex-end;
+  text-align: right;
+}
+
+.chat-message.received {
+  align-self: flex-start;
+  text-align: left;
 }
 
 .chat-message-text {
