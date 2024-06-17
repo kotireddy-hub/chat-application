@@ -4,7 +4,7 @@ export const data = [
     userId: 'user1',
     name: 'Sam',
     unreadCount: 2,
-    profilePictureURL: 'https://via.placeholder.com/50',
+    profilePictureURL: 'https://images.pexels.com/users/avatars/224453/andrea-piacquadio-138.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2',
     chat: [
       { message: 'Hello', timeStamp: '10:40', sender: 'Sam' },
       { message: 'Hey', timeStamp: '10:41', sender: 'me' },
@@ -20,7 +20,7 @@ export const data = [
     userId: 'user2',
     name: 'Elon',
     unreadCount: 0,
-    profilePictureURL: 'https://via.placeholder.com/50',
+    profilePictureURL: 'https://images.pexels.com/photos/2770601/pexels-photo-2770601.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load',
     chat: [
       { message: 'There?', timeStamp: '11:39', sender: 'Elon' },
       { message: 'Yeah, what\'s up?', timeStamp: '11:47', sender: 'me' },
@@ -34,7 +34,7 @@ export const data = [
     userId: 'user3',
     name: 'Kate',
     unreadCount: 1,
-    profilePictureURL: 'https://via.placeholder.com/50',
+    profilePictureURL: 'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg',
     chat: [
       { message: 'That burger was delicious!', timeStamp: '13:12', sender: 'Kate' },
       { message: 'Oh yes, no doubt.', timeStamp: '13:13', sender: 'me' },
